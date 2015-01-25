@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h3, p {
+    margin: 0;
+}
+h2, h3 {
+    font-weight: 600;
+}
+h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+ul {
+    margin-top: 0;
+}
+#name {
+    text-align: center;
+}
+li {
+    margin-bottom: 5px;
+}
+.subtitle {
+    border-bottom: 1px solid #9e9e9e;
+}
+table td{
+    width: 100%;
+    display: table-cell;
+}
+#email {
+    text-align: right;
+}
+@media screen and (max-width: 600px) {
+    table td{
+        position: relative;
+        display: block;
+    }
+    #email {
+        text-align: left;
+    }
+}
+@media screen and (min-width: 600px) {
+    body {
+        margin: auto;
+        max-width: 1000px;
+    }
+    ul {
+        padding-left: 65px;
+    }
+}
+@media screen and (max-width: 1037px) {
+    body {
+        margin: 0px 8px 0px 8px;
+    }
+}
