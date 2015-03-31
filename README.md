@@ -1,1 +1,1 @@
-GitHub Pages for my [Resume] (http://xandros-na.github.io/)
+GitHub Pages for my [Portfolio] (http://xandros-na.github.io/)
