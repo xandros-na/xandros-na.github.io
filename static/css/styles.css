@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #424242;
+    background-color: #f0f0f0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==============
+ * NAV
+ * ==============
+ */
+#main_nav {
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+#main_nav h1 {
+    color: #424242;
+    margin: 40px 0px 40px 0px;
+}
+
+i {
+    border-radius: 50% 50%;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    background-color: #fff;
+    color: #424242;
+}
+
+.content {
+    padding: 1em;
+}
+
+.content h1 {
+    margin: auto;
+    font-weight: 600;
+}
+
+#home {
+    margin-top: 250px;
+}
+
+.content p {
+    font-weight: 400;
+    line-height: 200%;
+}
+
+#thumbnails img {
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    max-width: 100%;
+}
+
+.container {
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    margin: auto;
+    max-width: 700px;
+    background: #fff;
+}
+
+figure {
+    margin: 16px 0px 16px 0px;
+}
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+.ulfooter li {
+    display: inline;
+    margin: 1.5%;
+}
+
+.preceding {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    padding: 0px;
+    background-color: transparent;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+figcaption {
+    font-weight: 600;
+}
+@media screen and (min-width: 640px) {
+    #main_nav {
+        font-size: 36px;
+    }
+
+    #home {
+        margin-top: 320px;
+    }
+    
+    #thumbnails img {
+        max-width: 50%;
+    }
+}
