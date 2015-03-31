@@ -55,7 +55,15 @@ i {
     line-height: 200%;
 }
 
-#thumbnails img {
+.thumbnails {
+    margin-top: 50px;
+}
+
+.thumbnails.preceding {
+    margin-top: 0;
+}
+
+.thumbnails img {
     -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
@@ -114,6 +122,7 @@ a {
 figcaption {
     font-weight: 600;
 }
+
 @media screen and (min-width: 640px) {
     #main_nav {
         font-size: 36px;
@@ -123,7 +132,7 @@ figcaption {
         margin-top: 320px;
     }
     
-    #thumbnails img {
-        max-width: 50%;
+    .thumbnails img {
+        max-width: 500px;
     }
 }
