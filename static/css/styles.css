@@ -134,10 +134,18 @@ figcaption {
 
     .thumbnails img {
         max-width: 500px;
+        width: 500px;
+        height: 469px;
+    }
+
+    #gpa {
+        width: 500px;
+        height: 331px;
     }
 
     .profile-pic img {
         width: 150px;
+        height: 229px;
     }
 
 }
