@@ -34,7 +34,7 @@ body {
     padding: 15px;
     background-color: #fff;
     color: #424242;
-    width: 120px;
+    width: 180px;
 }
 
 .content {
@@ -87,6 +87,10 @@ figure {
 ul {
     text-align: center;
     padding: 0px;
+}
+
+section p {
+    text-align: left;
 }
 
 ul > li {
@@ -144,8 +148,7 @@ figcaption {
     }
 
     .profile-pic img {
-        width: 150px;
-        height: 229px;
+        width: 240px;
     }
 
 }
