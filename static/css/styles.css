@@ -127,6 +127,16 @@ figcaption {
     font-weight: 600;
 }
 
+.recent-works {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.links {
+    color: #448AFF;
+}
+
 @media screen and (min-width: 640px) {
     #main_nav {
         font-size: 36px;
